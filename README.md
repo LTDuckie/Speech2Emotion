@@ -1,7 +1,7 @@
 # Speech2Emotion to Support Conversation2Motion
 This project is set up to make a "conversation to motions" system with the help of [DiffuseStyleGesture](https://github.com/YoungSeng/DiffuseStyleGesture) which requires emotion input as a parameter to generate motions from audios.  
-The video of running the code is available at [CodeRunning](https://drive.google.com/file/d/1Ll5Wp5w-fRmoJERyManGLCRcR5e9g2qI/view?usp=sharing).  
-The video of demo result is available at [DemoResults](https://www.bilibili.com/video/BV1mDtSzzEEi/).  
+The video of running the code is available at [GoogleDrive](https://drive.google.com/file/d/1Ll5Wp5w-fRmoJERyManGLCRcR5e9g2qI/view?usp=sharing).  
+The video of demo result is available at [Bilibili](https://www.bilibili.com/video/BV1mDtSzzEEi/).  
 
 ## Getting Started
 Set up the [DiffuseStyleGesture](https://github.com/YoungSeng/DiffuseStyleGesture) project as they instructed.
