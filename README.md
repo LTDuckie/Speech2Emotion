@@ -52,6 +52,9 @@ To only test the emotion recognition part, put some wav files into ```example_au
 The result will show the emotion recognition results of these wav files.
 You may also change the detection path in line 49 of ```ER_sample.py```.
 
+### Test Result
+SER has an overall 67% acc and has high accuracy in sadness and low accuracy in happiness. 
+
 ### Combine with motion generation.
 There are three conversation sample folders in ```example_audio```. We can recognize their emotions and generate motions by running
 
@@ -61,7 +64,7 @@ You may change the audio path if you put them at other places, and for each emot
 
     python preprocess_and_generate.py path_to_your_audio_folder
 
-And the results would be saved to ```./mydiffusion_zeggs/sample_dir/generating_time/```. Please make sure that all durations of your audios are between 4s and 5s.(DiffuseStyleGesture requires the audio duration ≥ 4s, and the SER model is trained from audio duration ≤ 5s.)  
+And the results would be saved to ```./mydiffusion_zeggs/sample_dir/generating_time/```. Please make sure that all durations of your audios are between 4s and 6s.(DiffuseStyleGesture requires the audio duration ≥ 4s, and the SER model is trained from audio duration ≤ 6s.)  
 
 Below are the results of generated motions from ```./speech2emotion/example_audio/Angry_neutral```.  
 
