@@ -57,7 +57,7 @@ There are three conversation sample folders in ```example_audio```. We can recog
 
     python preprocess_and_generate.py ./speech2emotion/example_audio/Angry_neutral
 
-You may change the audio path if you put them at other places.
+You may change the audio path if you put them at other places, and for each emotion we provide 2 sample dialogue folders.  
 
     python preprocess_and_generate.py path_to_your_audio_folder
 
