@@ -61,7 +61,7 @@ You may change the audio path if you put them at other places.
 
     python preprocess_and_generate.py path_to_your_audio_folder
 
-And the results would be saved to ```./mydiffusion_zeggs/sample_dir/generating_time/```.  
+And the results would be saved to ```./mydiffusion_zeggs/sample_dir/generating_time/```. Please make sure that all durations of your audios are between 4s and 5s.(DiffuseStyleGesture requires the audio duration ≥ 4s, and the SER model is trained from audio duration ≤ 5s.)  
 
 Below are the results of generated motions from ```./speech2emotion/example_audio/Angry_neutral```.  
 
